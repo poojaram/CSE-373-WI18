@@ -79,7 +79,7 @@ public class DoubleLinkedList<T> implements IList<T> {
     }
 
     private static class Node<E> {
-        // You may not change the fields in this node or add any new fields.
+        
         public final E data;
         public Node<E> prev;
         public Node<E> next;
